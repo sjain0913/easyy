@@ -1,3 +1,4 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 class HomeScreen extends StatelessWidget {
@@ -10,17 +11,16 @@ class HomeScreen extends StatelessWidget {
           style: TextStyle(
             fontFamily: 'ReenieBeanie',
             color: Colors.white,
-            //fontWeight: FontWeight.w900,
-            //fontSize: 50,
-            //letterSpacing: 6,
+            fontWeight: FontWeight.w400,
+            fontStyle: FontStyle.normal,
+            fontSize: 50,
+            letterSpacing: 6,
           ),
         ),
         backgroundColor: Colors.redAccent[400],
         centerTitle: true,
       ),
-      body: Center(
-
-      ),
+      body: 
     );
   }
 }
