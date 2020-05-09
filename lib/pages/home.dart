@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:easyy/widgets/methodselection.dart';
 
 class HomeScreen extends StatelessWidget {
   @override
@@ -20,7 +21,9 @@ class HomeScreen extends StatelessWidget {
         backgroundColor: Colors.redAccent[400],
         centerTitle: true,
       ),
-      body: 
+      body: Container(
+
+      ),
     );
   }
 }
