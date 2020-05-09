@@ -36,3 +36,7 @@ flutter:
         - asset: fonts/Raleway/Raleway-Italic.ttf
           style: italic
 
+    - family: ReenieBeanie
+      fonts:
+        - asset: fonts/ReenieBeanie/ReenieBeanie-Regular.ttf
+

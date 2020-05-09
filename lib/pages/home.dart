@@ -5,7 +5,18 @@ class HomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("cheeks on display"),
+        title: Text(
+          "Easyy",
+          style: TextStyle(
+            fontFamily: 'ReenieBeanie',
+            color: Colors.white,
+            //fontWeight: FontWeight.w900,
+            //fontSize: 50,
+            //letterSpacing: 6,
+          ),
+        ),
+        backgroundColor: Colors.redAccent[400],
+        centerTitle: true,
       ),
       body: Center(
 

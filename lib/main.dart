@@ -13,7 +13,6 @@ class Easyy extends StatelessWidget {
       initialRoute: '/',
       routes: {
         '/': (context) => SplashScreen(),
-        '/login': (context) => 
         '/home': (context) => HomeScreen(),
       }
     );
