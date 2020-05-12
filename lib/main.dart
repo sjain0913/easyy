@@ -11,6 +11,7 @@ class Easyy extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       initialRoute: '/',
+      //add more routes
       routes: {
         '/': (context) => SplashScreen(),
         '/home': (context) => HomeScreen(),
